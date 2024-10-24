@@ -1,0 +1,69 @@
+{
+  "A_initializer_range": [
+    1,
+    16
+  ],
+  "_name_or_path": "OuteAI/Lite-Oute-2-Mamba2Attn-Base",
+  "architectures": [
+    "Mamba2ForCausalLM"
+  ],
+  "attention_conv_kernel": 4,
+  "attention_head_dim": 128,
+  "attention_layers_idx": [
+    6,
+    12,
+    18,
+    24,
+    30,
+    36,
+    42
+  ],
+  "auto_map": {
+    "AutoConfig": "OuteAI/Lite-Oute-2-Mamba2Attn-Base--configuration_mamba2attn.Mamba2Config",
+    "AutoModelForCausalLM": "OuteAI/Lite-Oute-2-Mamba2Attn-Base--modeling_mamba2attn.Mamba2ForCausalLM"
+  },
+  "bos_token_id": 1,
+  "chunk_size": 256,
+  "classifier_dropout": 0.1,
+  "conv_initializer_range": null,
+  "emb_initializer_range": 0.02,
+  "eos_token_id": 2,
+  "expand": 2,
+  "hidden_act": "silu",
+  "hidden_size": 1024,
+  "intermediate_size": 2048,
+  "layer_norm_epsilon": 1e-05,
+  "mamba2_conv_kernel": 4,
+  "mamba2_head_dim": 64,
+  "mamba2_num_heads": 32,
+  "max_position_embeddings": 8192,
+  "mlp_intermediate_size": 0,
+  "mlp_padding_size": 128,
+  "model_type": "mamba2",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 48,
+  "num_key_value_heads": 16,
+  "pad_token_id": 0,
+  "rescale_prenorm_residual": false,
+  "residual_in_fp32": true,
+  "rope_emb_dim": 64,
+  "rope_scaling": null,
+  "rope_theta": 10000.0,
+  "state_size": 128,
+  "tie_embedding_weights": true,
+  "time_step_floor": 0.0001,
+  "time_step_limit": [
+    0.0,
+    Infinity
+  ],
+  "time_step_max": 0.1,
+  "time_step_min": 0.001,
+  "transformers_version": "4.43.0.dev0",
+  "use_attention_out_bias": false,
+  "use_attention_qkv_bias": false,
+  "use_cache": true,
+  "use_conv_bias": true,
+  "use_mamba2_bias": false,
+  "use_mlp_bias": false,
+  "vocab_size": 50277
+}

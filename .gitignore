@@ -1,0 +1,5 @@
+*.parquet
+/weight_models
+/wandb
+/__pycache__
+.env
