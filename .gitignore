@@ -1,5 +1,9 @@
 *.parquet
+*.json
+./test
 /weight_models
-/wandb
-/__pycache__
+*__pycache__
 .env
+*wandb
+*results
+*.csv
